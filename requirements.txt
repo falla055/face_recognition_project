@@ -1,0 +1,19 @@
+# Core dependencies
+torch==2.2.0
+torchvision==0.17.0
+pillow==10.2.0
+facenet-pytorch==2.6.0
+
+# Image loading and processing
+numpy
+matplotlib
+opencv-python
+
+# For similarity/perceptual metrics (optional but useful)
+scikit-image
+lpips
+
+# Optional: for notebook and face display/debug
+jupyter
+
+# Usage: pip install -r requirements.txt after creating/activating venv
